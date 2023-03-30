@@ -8,7 +8,7 @@
     "node": "18.x"
   },
   "scripts": {
-    "start": "json-server --watch db.json",
+    "build": "json-server --watch db.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
