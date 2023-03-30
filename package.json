@@ -1,6 +1,7 @@
 {
   "name": "costs-project-backend",
   "version": "1.0.0",
+  "type": "module",
   "description": "Json backend for the Costs-Project",
   "main": "index.js",
   "scripts": {
