@@ -10,5 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "json-server": "^0.17.3"
+  },
+  "devDependencies": {
+    "@vercel/node": "^2.10.2"
   }
 }
