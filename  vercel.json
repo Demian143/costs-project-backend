@@ -3,6 +3,7 @@
   "builds": [
     {
       "use": "@vercel/node",
+      "src": "index.js",
       "config": {
         "includeFiles": ["db.json"]
       }
