@@ -2,16 +2,13 @@
   "version": 2,
   "builds": [
     {
-      "src": "server.js",
-      "use": "@versel/node",
-      "config": {
-        "includeFiles": ["db.json"]
-      }
+      "src": "./server.js",
+      "use": "@versel/node"
     }
   ],
   "routes": [
     {
-      "src": "/categories",
+      "src": "/(.*)",
       "dest": "/"
     }
   ]
