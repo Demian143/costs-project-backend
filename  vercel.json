@@ -6,10 +6,11 @@
       "use": "@versel/node"
     }
   ],
+  "includeFiles": "db.json",
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/"
+      "dest": "api/index.js"
     }
   ],
   "rewrites": [{ "source": "/api/(.*)", "destination": "/api" }]
